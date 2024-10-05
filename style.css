@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    font-family: "Open Sans", sans-serif;
+}
+
+.card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #777;
+    border-radius: .25rem;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.card-body  {
+    font-size: .9rem;
+}
+
+.card-footer {
+    margin-top: 1rem;
+}
+
+.btn {
+    --color: hsl(200, 50%, 50%);
+    background: var(--color);
+    color: #fff;
+    border: none;
+    padding: .5em .75em;
+    border-radius: .25em;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: hsl(200, 50%, 60%);
+}
+
+.btn-outline {
+    background: none;
+    border: 1px solid var(--color);
+    color: var(--color);
+}
+
+.btn-outline:hover {
+    background: hsl(200, 50%, 90%);
+}
+
+.btn + .btn {
+    margin-left: .25rem;
+}
